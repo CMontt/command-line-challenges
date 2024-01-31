@@ -16,3 +16,4 @@ p13-b: cp hello.txt goodbye.txt<br>
 p14-b: mv goodbye.txt hello_copy.txt<br>
 p15-i: cmp -s hello.txt hello_copy.txt && echo "identical" || echo "differents"<br>
 p16-b: cat hello.txt hello_copy.txt > 2_hellos.txt<br>
+p17-b: pwd<br>
