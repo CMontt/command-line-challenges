@@ -1,6 +1,7 @@
 # Solutions
 
-p1-b: tar -xvf challenges.tar.gz  
-p2-b: ls challenges  
+p1-b: tar -xvf challenges.tar.gz
+p2-b: cd challenges
+p3-b: ls  
 
 
