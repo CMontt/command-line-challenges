@@ -19,3 +19,4 @@ p16-b: cat hello.txt hello_copy.txt > 2_hellos.txt<br>
 p17-b: pwd<br>
 p18-b: ls -l<br>
 p19-b: echo "Some text to append" >> restricted.txt<br>
+p20-b: ./hello_executable<br>
