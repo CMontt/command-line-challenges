@@ -12,4 +12,5 @@ p9-b: touch empty.txt<br>
 p10-b: rm -rf empty.txt<br>
 p11-i: echo -n > empty.txt<br>
 p12-i: cat > empty.txt<br>
-p13-b: p hello.txt goodbye.txt<br>
+p13-b: cp hello.txt goodbye.txt<br>
+p14-b: mv goodbye.txt hello_copy.txt<br>
