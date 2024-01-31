@@ -10,3 +10,4 @@ p7-b: echo "Hello World"<br>
 p8-b: echo "Hello World" >> hello.txt<br>
 p9-b: touch empty.txt<br>
 p10-b: rm -rf empty.txt<br>
+p11-i: echo -n > empty.txt<br>
