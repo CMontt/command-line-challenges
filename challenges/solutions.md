@@ -24,3 +24,4 @@ p21-b: chmod +x challenge_20 && ./challenge_20<br>
 p22-b: gcc -o compile_me compile_me.c && ./compile_me<br>
 p23-a: ./redirect > output.txt 2>&1<br>
 p24-b: date<br>
+p25-b: ps aux<br>
