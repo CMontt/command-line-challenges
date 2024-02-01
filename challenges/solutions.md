@@ -47,3 +47,4 @@ p44-i: find . -mindepth 1 -type d | wc -l<br>
 p45-i: find . -type f -name "*deleteme*" -exec rm {} \;<br>
 p46-i: grep -rl "You found the needle in the haystack!" bunch_of_files/ | xargs sed -i 's/You found the needle in the haystack!/The needle has been removed./g'<br>
 p47-a: awk 'BEGIN {FS=","; OFS="|"} {$1=$1} 1' people.csv > people_pipe.csv<br>
+p48-a: find bunch_of_files/ -type f -name "file001.rand" -exec cmp -s {} bunch_of_files/file001.rand \; -print<br>
