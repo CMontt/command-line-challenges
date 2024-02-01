@@ -26,3 +26,4 @@ p23-a: ./redirect > output.txt 2>&1<br>
 p24-b: date<br>
 p25-b: ps aux<br>
 p26-b: nproc<br>
+p27-b: uname -6<br>
