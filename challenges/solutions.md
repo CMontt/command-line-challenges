@@ -41,3 +41,4 @@ p38-a: awk -F',' '{print $2}' people.csv | sort -u | wc -l<br>
 p39-a: tail -n +2 people.csv | awk -F',' '{print $2}' | sort -u | wc -l<br>
 p40-a: awk -F',' 'NR>1 {print $2}' people.csv | sort -u | wc -l<br>
 p41-a: use "time" to compare<br>
+p42-a: awk -F',' '$1=="Josiah" {count++} END {print count}' people.csv<br>
