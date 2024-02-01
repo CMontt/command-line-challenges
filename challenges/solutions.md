@@ -28,3 +28,4 @@ p25-b: ps aux<br>
 p26-b: nproc<br>
 p27-b: uname -6<br>
 p28-b: grep -rl "You found the needle in the haystack!" bunch_of_files/<br>
+p29-b: head -n 25 people.csv <br>
