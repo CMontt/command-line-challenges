@@ -32,3 +32,4 @@ p29-b: head -n 25 people.csv<br>
 p30-b: tail -n 25 people.csv<br>
 p31-i: diff greeting1.txt greeting2.txt <br>
 p32-i: echo "Hello" && sleep 5 && echo "world!"<br>
+p33-i: dd if=/dev/zero of=zeros_file bs=1M count=1<br>
