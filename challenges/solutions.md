@@ -36,3 +36,4 @@ p33-i: dd if=/dev/zero of=zeros_file bs=1M count=1<br>
 p34-i: dd if=/dev/urandom of=random_file bs=1M count=2<br>
 p35-i: wc -l README.txt<br>
 p36-b: tac README.txt<br>
+p37-i: awk -F',' '{print $2}' people.csv<br>
