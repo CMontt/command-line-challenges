@@ -22,3 +22,4 @@ p19-b: echo "Some text to append" >> restricted.txt<br>
 p20-b: ./hello_executable<br>
 p21-b: chmod +x challenge_20 && ./challenge_20<br>
 p22-b: gcc -o compile_me compile_me.c && ./compile_me<br>
+p23-a: ./redirect > output.txt 2>&1<br>
