@@ -39,3 +39,4 @@ p36-b: tac README.txt<br>
 p37-i: awk -F',' '{print $2}' people.csv<br>
 p38-a: awk -F',' '{print $2}' people.csv | sort -u | wc -l<br>
 p39-a: tail -n +2 people.csv | awk -F',' '{print $2}' | sort -u | wc -l<br>
+p40-a: awk -F',' 'NR>1 {print $2}' people.csv | sort -u | wc -l<br>
