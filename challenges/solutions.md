@@ -44,3 +44,4 @@ p41-a: use "time" to compare<br>
 p42-a: awk -F',' '$1=="Josiah" {count++} END {print count}' people.csv<br>
 p43-i: find . -maxdepth 1 -type f | wc -l<br>
 p44-i: find . -mindepth 1 -type d | wc -l<br>
+p45-i: find . -type f -name "*deleteme*" -exec rm {} \;<br>
