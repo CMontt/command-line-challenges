@@ -37,3 +37,4 @@ p34-i: dd if=/dev/urandom of=random_file bs=1M count=2<br>
 p35-i: wc -l README.txt<br>
 p36-b: tac README.txt<br>
 p37-i: awk -F',' '{print $2}' people.csv<br>
+p38-a: awk -F',' '{print $2}' people.csv | sort -u | wc -l<br>
